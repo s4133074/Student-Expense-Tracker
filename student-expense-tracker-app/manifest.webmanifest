@@ -1,0 +1,34 @@
+{
+  "name": "Student Expense Tracker",
+  "short_name": "Student Budget",
+  "description": "Track student expenses, monthly budgets, recent spending, and category trends.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#eef7f2",
+  "theme_color": "#0f7b5f",
+  "categories": ["finance", "productivity", "education"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open tracker",
+      "short_name": "Tracker",
+      "url": "/",
+      "description": "Open your student expense dashboard"
+    }
+  ]
+}
